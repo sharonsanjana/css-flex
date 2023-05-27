@@ -1,9 +1,52 @@
-/*  */
-body
-{
-    background-color: black;
-}
-.header
-{
+/* 
+
+*/
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:rgb(0, 43, 91);
+    align-items: center;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 450;
+}
+.image-sect {
+    background-color:#c5eefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.text-sect {
+    background-color:#1A5F7A;
+    display: flex;
+    justify-content: space-between;
+}
+.main,
+.main1,
+.main3 {
+    padding: 30px;
+}
+
+.main {
+    font-size: 35px;
+}
+.main1 {
+    padding: 50px 70px 0 45px;
+    width: 300px;
+    font-size: 18px;
+}
+.main3 h4 {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 12px;
 }
